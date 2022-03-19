@@ -170,7 +170,7 @@ function App() {
       }
 
       <footer>
-        <p> Ⓒ Kawan Idrees 2022 <br />Typing Test App </p>
+        <p className='p'> Ⓒ Kawan Idrees 2022 <br />Typing Test App </p>
        
       </footer>
    

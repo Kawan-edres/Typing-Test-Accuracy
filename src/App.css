@@ -104,6 +104,11 @@ footer{
     font-size: 1rem;
 }
 
+ .p{
+    width: 10%;
+    margin: 0 auto;
+}
+
   footer p:hover{
     transform: scale(2);
 
