@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+.App{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+
+}
+.time{
+    margin-top: 7rem;
+    font-size: 4rem;
+    color: darkcyan;
+    
+}
+.inp{
+    width: 100%;
+    margin-top: 3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+    width: 60%;
+    padding: 0.1rem 0 0.1rem 0;
+    background-color:#f5f5f5;
+    border: none;
+    font-size: 2rem;
+    border-radius: 5px;
+    outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.but{
+    width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.textcon{
+    display: inline;
+}
+.text{
+    min-height: 350px;
+    max-height: 350px;
+    width: 60%;
+    background-color:antiquewhite;
+    text-align: center;
+    margin: 5rem auto;
+    text-align: left;
+    padding: 1rem;
+    
+    
+}
+.text span{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: black;
+}
+button{
+    width: 60%;
+    padding: 0.1rem 0 0.1rem 0;
+    border: none;
+    margin-top: 3rem;
+    background-color: #3e8ed0;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 2rem;
+   
+ 
+
+}
+button:active{
+ color: aquamarine;
+ font: bold;
+ transform: scale(1.1);
+}
+button:hover{
+    color: aquamarine;
+    font: bold;
+   }
+
+
+.result {
+    display:flex;
+    justify-content: center;
+    padding: 2rem;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.result p{
+    padding: 0 15rem 0 15rem;
+    font-size: 2rem;
+    color: darkcyan;
+    font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+
+footer{
+    margin-top: 20rem;
+    color: black;
+    font: bold;
+    font-size: 1rem;
+}
+
+  footer p:hover{
+    transform: scale(2);
+
 }
