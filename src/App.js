@@ -79,7 +79,7 @@ function App() {
       if(time===0){
         clearInterval(interval);
         setStatus("finish")
-        return time
+        return SECONDS ;
       }
       else{
         return  time-1
