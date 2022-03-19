@@ -7,7 +7,7 @@ const SECONDS=60;
 
 function App() {
 
-  const fade={
+  const fadeRight={
     hidden:{
       x:"-100vw"
 
@@ -16,7 +16,21 @@ function App() {
       x:0,
       transition:{
         type:"spring",
-        delay:0.5
+        delay:0.4
+      }
+    }
+  }
+
+  const fadein={
+    hidden:{
+      y:"100vw"
+
+    },
+    visible:{
+      y:0,
+      transition:{
+        type:"spring",
+        delay:0.3
       }
     }
   }
@@ -159,7 +173,7 @@ function App() {
       {/* text */}
       {status==="start" &&
 
-      <motion.div variants={fade} initial="hidden" animate="visible" className='text'>
+      <motion.div variants={fadeRight} initial="hidden" animate="visible" className='text'>
       {words.map((word, i) => (
                   <span key={i}>
                     <span>
@@ -177,11 +191,11 @@ function App() {
       
       {status==="finish" &&
 
-      <div className='result'>
+      <motion.div variants={fadein} initial="hidden" animate="visible" className='result'>
       <p className='wpm'>Wpm : {correct}</p>
       <p className='acc'>Accuracy : {Math.round(correct/(correct+incorrect)*100)}%</p>
 
-      </div>
+      </motion.div>
       }
 
       <footer>
