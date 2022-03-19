@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Typing-Test-Accuracy/static/css/main.045995a9.css",
-    "main.js": "/Typing-Test-Accuracy/static/js/main.c0be1e2e.js",
+    "main.css": "/Typing-Test-Accuracy/static/css/main.d1a50236.css",
+    "main.js": "/Typing-Test-Accuracy/static/js/main.2c80be4a.js",
     "static/js/787.ab40f7c1.chunk.js": "/Typing-Test-Accuracy/static/js/787.ab40f7c1.chunk.js",
     "index.html": "/Typing-Test-Accuracy/index.html",
-    "main.045995a9.css.map": "/Typing-Test-Accuracy/static/css/main.045995a9.css.map",
-    "main.c0be1e2e.js.map": "/Typing-Test-Accuracy/static/js/main.c0be1e2e.js.map",
+    "main.d1a50236.css.map": "/Typing-Test-Accuracy/static/css/main.d1a50236.css.map",
+    "main.2c80be4a.js.map": "/Typing-Test-Accuracy/static/js/main.2c80be4a.js.map",
     "787.ab40f7c1.chunk.js.map": "/Typing-Test-Accuracy/static/js/787.ab40f7c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.045995a9.css",
-    "static/js/main.c0be1e2e.js"
+    "static/css/main.d1a50236.css",
+    "static/js/main.2c80be4a.js"
   ]
 }
