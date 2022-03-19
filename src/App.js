@@ -1,10 +1,25 @@
 import './App.css';
+import {motion} from 'framer-motion'
 import {useEffect, useState,useRef} from "react";
 import randomWords from 'random-words'
 const NUMBER_OF_WORDS=150;
 const SECONDS=60;
 
 function App() {
+
+  const fade={
+    hidden:{
+      x:"-100vw"
+
+    },
+    visible:{
+      x:0,
+      transition:{
+        type:"spring",
+        delay:0.5
+      }
+    }
+  }
 
   const [words,setWords]=useState([]);
   const [time,setTime]=useState(SECONDS);
@@ -144,7 +159,7 @@ function App() {
       {/* text */}
       {status==="start" &&
 
-      <div className='text'>
+      <motion.div variants={fade} initial="hidden" animate="visible" className='text'>
       {words.map((word, i) => (
                   <span key={i}>
                     <span>
@@ -156,7 +171,7 @@ function App() {
                   </span>
                 ))}
 
-      </div>
+      </motion.div>
       }
 
       
