@@ -34,7 +34,7 @@ input{
 }
 .text{
     min-height: 350px;
-    max-height: 350px;
+   
     width: 60%;
     background-color:antiquewhite;
     text-align: center;
@@ -113,3 +113,4 @@ footer{
     transform: scale(2);
 
 }
+
