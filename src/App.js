@@ -41,7 +41,7 @@ function App() {
       setCurrentCharIndex(-1);
       setCurrChar("")
     }
-    if(status!="start"){
+    if(status!=="start"){
       setStatus("start");
     }
     const interval=setInterval(()=>
@@ -95,7 +95,7 @@ function App() {
   }
 
   function getCharClass(wordIndex,charIndex,char){
-    if(wordIndex===currWordIndex && charIndex===currentCharIndex &&currChar && status!="finish"){
+    if(wordIndex===currWordIndex && charIndex===currentCharIndex &&currChar && status!=="finish"){
       if(char===currChar){
         return "green";
       }
@@ -159,7 +159,7 @@ function App() {
       </div>
       }
 
-      {/* result */}
+      
       {status==="finish" &&
 
       <div className='result'>
