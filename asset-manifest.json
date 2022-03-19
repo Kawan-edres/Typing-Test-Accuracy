@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Typing-Test-Accuracy/static/css/main.d1a50236.css",
-    "main.js": "/Typing-Test-Accuracy/static/js/main.ed0a42a2.js",
+    "main.js": "/Typing-Test-Accuracy/static/js/main.bc7dcf66.js",
     "static/js/787.ab40f7c1.chunk.js": "/Typing-Test-Accuracy/static/js/787.ab40f7c1.chunk.js",
     "index.html": "/Typing-Test-Accuracy/index.html",
     "main.d1a50236.css.map": "/Typing-Test-Accuracy/static/css/main.d1a50236.css.map",
-    "main.ed0a42a2.js.map": "/Typing-Test-Accuracy/static/js/main.ed0a42a2.js.map",
+    "main.bc7dcf66.js.map": "/Typing-Test-Accuracy/static/js/main.bc7dcf66.js.map",
     "787.ab40f7c1.chunk.js.map": "/Typing-Test-Accuracy/static/js/787.ab40f7c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1a50236.css",
-    "static/js/main.ed0a42a2.js"
+    "static/js/main.bc7dcf66.js"
   ]
 }
